@@ -67,7 +67,7 @@ function validerReponseEnigme() {
     }
   } else {
     // mauvaise rep:
-    refCommentaireEnigme.textContent = "Désolé, ce n'est pas la bonne réponse.";
+    refCommentaireEnigme.textContent = "Désolé, t moins bon.";
     refCommentaireEnigme.classList.add("erreur");
     refChampReponseEnigme.value = ""; // Réinitialiser le champ de saisie
   }
